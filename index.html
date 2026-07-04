@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Devesh Sureka | Web Developer</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <nav>
+            <a href="#top" class="logo">Devesh Sureka</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="top">
+            <h1>Devesh Sureka</h1>
+            <p>Web Developer | Building something for the Web</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="pictures/PIC.jpeg" alt="Devesh Sureka">
+                <p>I'm Devesh Sureka, a 3rd-year B.Tech CSE student currently learning web development. I'm building this portfolio as I go, working through HTML, CSS, and JavaScript from the ground up, and I'm excited to keep growing as a developer.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li class="skill-item">HTML</li>
+                <li class="skill-item">CSS</li>
+                <li class="skill-item">JavaScript</li>
+                <li class="skill-item">Java</li>
+                <li class="skill-item">Python</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: Personal Portfolio Website</h3>
+                <p>My First Web Development Project - A single page portfolio website built from scratch using HTML, CSS and JavaScript.</p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>  
+                <button type="submit">Send</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
