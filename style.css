@@ -27,11 +27,19 @@ section h2{
     margin-bottom: 20px;
 }
 nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: var(--text);
+    background-color: rgba(20, 24, 31, 0.7);
+    backdrop-filter: blur(10px);
+    transition: padding 0.3s ease;
+}
+nav.scrolled {
+    padding: 10px 40px;
 }
 nav ul {
     display: flex;
